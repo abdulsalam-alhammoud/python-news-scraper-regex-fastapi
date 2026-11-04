@@ -1,0 +1,38 @@
+[
+  {
+    "id": "heise",
+    "name": "Heise",
+    "url": "https://www.heise.de/newsticker/",
+    "headline_selector": "h3.a-article-teaser__title span.a-article-teaser__title-text",
+    "headline_regex": "<h3[^>]*class=\"a-article-teaser__title\"[^>]*>.*?<span[^>]*class=\"a-article-teaser__title-text\"[^>]*>(.*?)<\/span>.*?<\/h3>",
+    "enabled": true
+  },
+  {
+    "id": "computerweekly",
+    "name": "Computerweekly",
+    "url": "https://www.computerweekly.com/de/meinungen",
+    "headline_selector": "h3.infotype-news-title a",
+    "enabled": true
+  },
+  {
+    "id": "t3n",
+    "name": "t3n",
+    "url": "https://t3n.de/news/",
+    "headline_selector": "p.u-text-bold a",
+    "enabled": true
+  },
+  {
+    "id": "it-daily",
+    "name": "IT-Daily",
+    "url": "https://www.it-daily.net/newsticker",
+    "headline_selector": "div.newsticker-line a",
+    "enabled": true
+  },
+  {
+    "id": "25a2f69e-f7dc-4d9e-8653-24b46c5071be",
+    "name": "Quelle-6",
+    "url": "https://www.zdfheute.de/nachrichtenticker-100.html",
+    "headline_selector": "h2.c1bdz7f4",
+    "enabled": true
+  }
+]
